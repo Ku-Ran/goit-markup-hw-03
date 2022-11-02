@@ -23,8 +23,6 @@
 
 .list {
 	list-style: none;
-	/* display: flex;
-	flex-wrap: wrap; */
 }
 
 .link {
@@ -146,6 +144,7 @@ img {
 }
 
 .contact-list-link {
+	padding: 32px 0;
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.14;
@@ -288,9 +287,6 @@ img {
 	padding-bottom: 94px;
 }
 
-.functional-list-item {
-}
-
 .employees-section {
 	margin: auto;
 	padding-bottom: 94px;
@@ -307,12 +303,12 @@ img {
 	margin: 0;
 	list-style: none;
 	margin-top: calc(-1 * var(--card-set-gap));
-	margin-left: calc(-1 * var(--card-set-gap));
+	/* margin-left: calc(-1 * var(--card-set-gap)); */
 }
 
 .employees-list > .employees-card {
 	flex-basis: calc(100% / 4 - var(--card-set-gap));
-	margin-left: var(--card-set-gap);
+	/* margin-left: var(--card-set-gap); */
 	margin-top: var(--card-set-gap);
 }
 
